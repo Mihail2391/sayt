@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.animated-box,
+.animated-circle,
+.animated-scroll-box {
+	width: 100px;
+	height: 100px;
+	margin: 2rem auto;
+	background-color: #007bff;
+}
+
+.animated-circle {
+	border-radius: 50%;
+}
+
+.hidden {
+	display: none;
+}
